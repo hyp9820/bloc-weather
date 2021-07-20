@@ -30,7 +30,7 @@ class _MyColorsState extends State<MyColors> {
   }
 
   getItems() {
-    return <String>["blue", "green", "red", "yellow", "white"]
+    return <String>["blue", "green", "red", "yellow", "purple"]
         .map<DropdownMenuItem<String>>((String value) {
       return DropdownMenuItem<String>(
         value: value,
