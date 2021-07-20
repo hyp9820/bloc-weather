@@ -23,8 +23,8 @@ class _MyColorsState extends State<MyColors> {
       return Colors.red;
     } else if (dropdownValue == "yellow") {
       return Colors.yellow;
-    } else if (dropdownValue == "white") {
-      return Colors.white;
+    } else if (dropdownValue == "purple") {
+      return Colors.purple;
     }
     return Colors.white;
   }
